@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "title": "Wireless & networks",
+    "list": [
+      {
+        "iconName": "network-wifi",
+        "community": false,
+        "text": "Wi_Fi"
+      },
+      {
+        "iconName": "bluetooth",
+        "community": false,
+        "text": "Bluetooth"
+      },
+      {
+        "iconName": "sim-card",
+        "community": false,
+        "text": "SIM cards"
+      },
+      {
+        "iconName": "data-usage",
+        "community": false,
+        "text": "Data usage"
+      },
+      {
+        "iconName": "more-horiz",
+        "community": false,
+        "text": "More"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Device",
+    "list": [
+      {
+        "iconName": "home",
+        "community": false,
+        "text": "Home"
+      },
+      {
+        "iconName": "brightness-6",
+        "community": true,
+        "text": "Display"
+      },
+      {
+        "iconName": "notifications",
+        "community": false,
+        "text": "Sound & notification"
+      },
+      {
+        "iconName": "android-debug-bridge",
+        "community": true,
+        "text": "Apps"
+      },
+      {
+        "iconName": "storage",
+        "community": false,
+        "text": "Storage & USB"
+      },
+      {
+        "iconName": "battery-70",
+        "community": true,
+        "text": "Battery"
+      },
+      {
+        "iconName": "chip",
+        "community": true,
+        "text": "Memory"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Personal",
+    "list": [
+      {
+        "iconName": "location-on",
+        "community": false,
+        "text": "Location"
+      },
+      {
+        "iconName": "lock",
+        "community": true,
+        "text": "Security"
+      },
+      {
+        "iconName": "account-box",
+        "community": true,
+        "text": "Accounts"
+      },
+      {
+        "iconName": "google",
+        "community": true,
+        "text": "Google"
+      },
+      {
+        "iconName": "web",
+        "community": true,
+        "text": "Language & input"
+      },
+      {
+        "iconName": "cloud-upload",
+        "community": true,
+        "text": "Backup & reset"
+      }
+    ]
+  }
+];
