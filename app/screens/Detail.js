@@ -6,9 +6,22 @@ class Detail extends Component {
     return (
       <View style={{ flex: 1 }}>
         <Image
-          source={{uri: 'https://i.pinimg.com/736x/b7/6c/ae/b76caeef63f1203ee69a67dfb81c741a--iphone-wallpaper-iphone-.jpg'}}
+          style={{
+            alignSelf: 'center',
+            height: Dimensions.get('window').width,
+            width: Dimensions.get('window').width,
+            borderWidth: 1,
+            resizeMode: 'contain'
+          }}
+          source={{uri: 'https://usercontent1.hubstatic.com/6965630.png'}}
         />
-        <Text>{this.props.navigation.state.params.title}</Text>
+        <Text
+          style={{
+            alignSelf: 'center',
+            fontSize: 32,
+            fontWeight: '900'
+          }}
+        >{this.props.navigation.state.params.title}</Text>
       </View>
     );
   }
